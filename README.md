@@ -1,6 +1,30 @@
 # portal-with-vuejs
 
 > THIS IS MY OWN BOILER PLATE FOR FUTURE PROJECTS. FUTURE ME, PLEASE DONT BE TOO HARSH ON MI.
+It has the following features:
+- Routing
+- Login page
+- axios for REST api calls 
+    - currently using api-staging.attensi.com for example cases
+
+- authentication enabled:
+    - auth folder includes auth required stuff, inluding the REST calls (for this example)
+
+- component based
+    - layout: for main layout, mainpage, navbar, sidebar, etc
+    - login: login related stuff
+    - modals: currently only generic modal, but can be extended later on
+    - product: template for a product, it also includes product modal as example
+
+- store based
+    - for storing, updating and getting data from the store
+
+
+- build pipeline:
+    - webpack FTW
+    - ES6/7
+    - babel with polyfills
+    - build.sh and deploy.sh are for building & deploying on AWS, change names later on
 
 ## Build Setup
 
