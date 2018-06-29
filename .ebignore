@@ -1,0 +1,8 @@
+node_modules
+.tmp
+.sass-cache
+.idea
+src
+
+# New Relic
+newrelic_agent.log
